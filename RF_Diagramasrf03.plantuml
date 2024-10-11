@@ -1,0 +1,9 @@
+@startuml RF03
+
+class seleccionar_producto{
+    - producto : String
+    - cantidad : String
+    
+}
+
+@enduml

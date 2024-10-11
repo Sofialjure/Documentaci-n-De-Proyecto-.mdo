@@ -1,0 +1,13 @@
+@startuml RF04
+
+class modificar_carrito{
+    - producto: String
+    - nueva_cantidad : String
+   
+}
+
+class eliminar_producto extends modificar_carrito {
+    - producto : String
+    
+}
+@enduml

@@ -1,0 +1,14 @@
+@startuml RF02
+
+class busqueda_producto{
+    - nombre : String
+    - categoria : String
+}
+
+class visualizacion_producto extends busqueda_producto{
+    - nombre : String
+    - description : String
+    - precio : String
+    - cantidad_stock : String 
+}
+@enduml

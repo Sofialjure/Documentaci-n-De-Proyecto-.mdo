@@ -1,0 +1,18 @@
+
+@startuml RF01
+
+class registro_usuario{
+    - nombre : String
+    - email : String
+    - contraseña : String
+    - telefono : String
+    - dirrecion: String
+}
+
+
+class inicio_sesion extends registro_usuario{
+    - email : String 
+    - contraseña : Satring 
+}
+@enduml
+

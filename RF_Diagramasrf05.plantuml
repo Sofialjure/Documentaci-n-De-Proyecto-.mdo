@@ -1,0 +1,16 @@
+@startuml RF05
+
+class confirmacion_compra{
+    - producto : String
+    - impuesto : String
+   
+}
+
+class salida_factura{
+    - productos_comprados: String
+    - precio_subtotal : String
+    - impuestos_aplicados : String
+    - precio_total : String
+    
+}
+@enduml
